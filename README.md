@@ -7,6 +7,12 @@ This is a small example of a Flask API which has a couple endpoints in which you
   *  ```Lineitems``` has similar functionality, allowing you to create a new line item and assign it to a budget, edit a line item, and delete a line item.
 
 
+## Set Up/ Running Project
+
+1. ```git clone git@github.com:MattCrook/flaskapi.git```
+2. ```cd flaskapi```
+3. ```docker build -t flaskapi:latest .```
+4. ```docker run -it -d -p 5000:5000 flaskapi```
 
 
 ### Technology Used
@@ -29,7 +35,7 @@ To view the Admin Dashboard, navigate to the below link:
 * http://localhost:5000/api/lineitems
 
 
-## Set Up / CRUD
+## Scripts / CRUD
 To popluate the database and get started making some POST requests, you can either open post man, or run the below ```curl``` requests.
 
 **Create Some Budgets**
