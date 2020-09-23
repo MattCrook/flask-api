@@ -36,7 +36,7 @@ To view the Admin Dashboard, navigate to the below link:
 
 
 ## Scripts / CRUD
-To popluate the database and get started making some POST requests, you can either open post man, or run the below ```curl``` requests.
+To populate the database and get started making some POST requests, you can either open Postman, or run the below ```curl``` requests.
 
 **Create Some Budgets**
 * ```curl http://localhost:5000/api/budgetitems -X POST -H "Content-Type: application/json" -d '{"budget_name": "Construction Budget", "description": "Sample Line Item Budget for Construction"}'```

@@ -14,16 +14,10 @@ import json
 
 app = Flask(__name__)
 
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
-# app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-# app.config['FLASK_ADMIN_SWATCH'] = 'cerulean'
-# app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
-
 app.config.from_object(Config)
 db = SQLAlchemy(app)
 ma = Marshmallow(app)
 migrate = Migrate(app, db)
-
 
 
 
