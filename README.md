@@ -21,7 +21,6 @@ This is a small example of a Flask API which has a couple endpoints in which you
 * SQLAlchemy
 * Marshmallow
 * Docker
-* Docker-compose
 * Flask-Admin
 * Migrations
 
@@ -30,7 +29,7 @@ To view the Admin Dashboard, navigate to the below link:
 * http://localhost:5000/admin/
 
 
-## Api Endpoints
+## API Endpoints
 * http://localhost:5000/api/budgetitems
 * http://localhost:5000/api/lineitems
 
