@@ -1,0 +1,34 @@
+#Python/ Flask
+.DS_Store
+.env
+.flaskenv
+*.pyc
+*.pyo
+env/
+env*
+dist/
+build/
+*.egg
+*.egg-info/
+_mailinglist
+.tox/
+.cache/
+.pytest_cache/
+.idea/
+docs/_build/
+__pycache__/
+
+# Local
+.DS_Store
+budgetenv/
+db.sqlite
+.vscode
+scrap.py
+database.db
+
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+*,cover
